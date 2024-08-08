@@ -16,13 +16,13 @@
   </head>
   <body>
     <main
-      class="w-screen min-h-screen h-auto bg-[#080A16] flex items-start md:items-center justify-center"
+      class="w-screen md:min-h-screen min-h-auto h-auto bg-[#080A16] flex items-start md:items-center justify-center"
     >
       <section
-        class="grid grid-cols-1 grid-rows-7 md:grid-cols-4 md:grid-rows-2 md:grid-flow-row gap-4 md:p-0 py-2 px-4 w-full md:w-2/3 md:h-96 place-content-start md:place-content-center"
+        class="grid grid-cols-1 grid-rows-7 md:grid-cols-4 md:grid-rows-2 gap-4 md:p-0 py-2 px-4 w-full md:w-2/3 place-content-start md:place-content-center"
       >
         <div
-          class="w-full h-full bg-[#0F1424] text-white md:row-start-1 md:row-span-2 rounded-lg overflow-hidden"
+          class="w-full bg-[#0F1424] text-white md:row-start-1 md:row-span-2 rounded-lg overflow-hidden"
         >
           <div
             class="bg-[#5847EB] p-5 rounded-lg overflow-hidden flex flex-row md:flex-col items-center md:items-start"
@@ -44,127 +44,157 @@
           <div
             class="flex flex-row md:flex-col py-4 px-1 md:p-5 gap-16 md:gap-3 justify-center"
           >
-            <p class="text-sm text-white opacity-50">Daily</p>
+            <p class="text-sm text-[#BDC1FF] opacity-50">Daily</p>
             <p class="text-sm text-white">Weekly</p>
-            <p class="text-sm text-white opacity-50">Monthly</p>
+            <p class="text-sm text-[#BDC1FF] opacity-50">Monthly</p>
           </div>
         </div>
+        <!-- Work -->
         <div
-          class="w-full h-full text-white md:row-start-1 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 text-white md:row-start-1 rounded-lg overflow-hidden relative"
         >
-          <div class="bg-[#FF8C66] relative z-10 w-full h-full">
+          <div class="bg-[#FF8C66] w-full h-full relative z-10">
             <img
               src="./images/icon-work.svg"
               alt="work"
-              class="w-12 h-12 absolute top-[-5px] right-[10px] z-10"
+              class="w-16 h-16 absolute top-[0] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Work</span>
               <img src="./images/icon-ellipsis.svg" />
             </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">32hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 36hrs</p>
+            </div>
           </div>
         </div>
 
+        <!-- Play -->
         <div
-          class="w-full h-full bg-[#080A16] text-white md:row-start-1 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 bg-[#080A16] text-white md:row-start-1 rounded-lg overflow-hidden relative"
         >
           <div class="bg-[#56C2E6] w-full h-full relative z-10">
             <img
               src="./images/icon-play.svg"
               alt="play"
-              class="w-12 h-12 absolute top-[-5px] right-[10px] z-10"
+              class="w-16 h-16 absolute top-[-5px] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Play</span>
               <img src="./images/icon-ellipsis.svg" />
             </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">10hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 8hrs</p>
+            </div>
           </div>
         </div>
 
+        <!-- Study -->
         <div
-          class="w-full h-full bg-[#080A16] text-white md:row-start-1 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 bg-[#080A16] text-white md:row-start-1 rounded-lg overflow-hidden relative"
         >
           <div class="bg-[#FF5C7C] w-full h-full relative z-10">
             <img
               src="./images/icon-study.svg"
               alt="study"
-              class="w-12 h-12 absolute top-[-10px] right-[10px] z-10"
+              class="w-16 h-16 absolute top-[-10px] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Study</span>
               <img src="./images/icon-ellipsis.svg" />
             </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">4hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 7hrs</p>
+            </div>
           </div>
         </div>
 
+        <!-- Exercise -->
         <div
-          class="w-full h-full bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
         >
           <div class="bg-[#4ACF81] w-full h-full relative z-10">
             <img
               src="./images/icon-exercise.svg"
-              alt="exsercise"
-              class="w-12 h-12 absolute top-[-5px] right-[10px] z-10"
+              alt="exercise"
+              class="w-16 h-16 absolute top-[-5px] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Exercise</span>
               <img src="./images/icon-ellipsis.svg" />
             </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">4hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 5hrs</p>
+            </div>
           </div>
         </div>
 
+        <!-- Social -->
         <div
-          class="w-full h-full bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
         >
           <div class="bg-[#7536D3] w-full h-full relative z-10">
             <img
               src="./images/icon-social.svg"
               alt="social"
-              class="w-12 h-12 absolute top-[-5px] right-[10px] z-10"
+              class="w-16 h-16 absolute top-[-5px] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Social</span>
               <img src="./images/icon-ellipsis.svg" />
             </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">5hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 10hrs</p>
+            </div>
           </div>
         </div>
 
+        <!-- Self Care-->
         <div
-          class="w-full h-full bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
+          class="w-full min-h-40 md:min-h-52 bg-[#080A16] text-white md:row-start-2 rounded-lg overflow-hidden relative"
         >
           <div class="bg-[#F1C65B] w-full h-full relative z-10">
             <img
               src="./images/icon-self-care.svg"
               alt="self care"
-              class="w-12 h-12 absolute top-[-5px] right-[10px] z-10"
+              class="w-16 h-16 absolute top-[-5px] right-[10px] z-10"
             />
           </div>
           <div
-            class="bg-[#0F1424] w-full h-full absolute top-[35px] left-0 z-20 p-5 rounded-t-lg"
+            class="bg-[#0F1424] w-full h-auto absolute bottom-0 left-0 z-20 p-5 rounded-t-lg"
           >
             <div class="flex justify-between items-center">
               <span>Self Care</span>
               <img src="./images/icon-ellipsis.svg" />
+            </div>
+            <div class="flex flex-col mt-2 md:mt-5">
+              <h3 class="text-3xl md:text-5xl font-thin">2hrs</h3>
+              <p class="mt-2 text-[#BDC1FF] opacity-50">Last Week - 2hrs</p>
             </div>
           </div>
         </div>
