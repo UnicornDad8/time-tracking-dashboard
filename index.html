@@ -24,18 +24,26 @@
         <div
           class="w-full h-full bg-[#080A16] text-white md:row-start-1 md:row-span-2 rounded-lg overflow-hidden"
         >
-          <div class="bg-[#5847EB] p-5 rounded-lg overflow-hidden">
+          <div
+            class="bg-[#5847EB] p-5 rounded-lg overflow-hidden flex flex-row md:flex-col items-center md:items-start"
+          >
             <image
               src="./images/image-jeremy.png"
-              class="w-16 h-16 border-2 border-white rounded-full mb-8"
+              class="w-16 h-16 border-2 border-white rounded-full mb-8 mr-4"
             />
-            <span class="text-sm text-white opacity-60">Report for</span>
-            <h2 class="text-white font-light text-2xl w-20 font-semithin pb-8">
-              Jeremy Robson
-            </h2>
+            <div class="flex flex-col md:mt-0 mt-[-30px]">
+              <span class="text-sm text-white opacity-60">Report for</span>
+              <h2
+                class="text-white font-light text-2xl w-full md:w-20 font-semithin pb-0 md:pb-8"
+              >
+                Jeremy Robson
+              </h2>
+            </div>
           </div>
 
-          <div class="flex flex-row md:flex-col p-5 gap-3 justify-center">
+          <div
+            class="flex flex-row md:flex-col py-4 px-1 md:p-5 gap-16 md:gap-3 justify-center"
+          >
             <p class="text-sm text-white opacity-50">Daily</p>
             <p class="text-sm text-white">Weekly</p>
             <p class="text-sm text-white opacity-50">Monthly</p>
